@@ -26,7 +26,7 @@ t = t1
 
 while True:
 	try:
-		db_connection = sqlite3.connect('/home/mayank/Desktop/precog/youtube/create-database/youtube.db')
+		db_connection = sqlite3.connect('./youtube.db')
 		print "Opened database successfully"
 		db = db_connection.cursor()
 
